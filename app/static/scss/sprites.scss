@@ -1,22 +1,22 @@
 %sprite-image {
-  background-image: url(/static/images/sprites.png);
+  background-image: url(../images/sprites.png);
   background-size: 352px 339px;
 }
 .sprite-logo {
   @extend %sprite-image;
-  background-position: -176px 0;
+  background-position: -170px 0;
 }
 .sprite-explore {
   @extend %sprite-image;
-  background-position: -200px -254px;
+  background-position: -272px -265px;
 }
 .sprite-activity {
   @extend %sprite-image;
-  background-position: -225px -254px;
+  background-position: -248px -265px;
 }
 .sprite-profile {
   @extend %sprite-image;
-  background-position: -150px -254px;
+  background-position: -148px -265px;
 }
 .sprite-heart-empty {
   @extend %sprite-image;
